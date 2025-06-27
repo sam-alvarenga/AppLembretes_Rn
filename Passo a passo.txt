@@ -1,0 +1,22 @@
+1) Relembrando as rotas da Api (Get All, GET, DELETE, UPDATE)
+API Lembrete 
+
+ - GET ALL (todos os lembretes)
+ - DELETE (apagar os lembretes)
+ - ADD (criar lembretes)
+ - UPDATE (atualizar lembretes)
+ - GET [id] (pegaria um único lembrete)
+
+Model Lembrete
+   
+ id
+ titulo
+ corpo
+
+2) Definir Wireframes x funcionalidades x fluxo de telas
+3) Definir a arquitetura e fluxo de telas com base no React Native (Navigation ou Router)
+4) Criar o repositório RN, fazer o link com o repositório remoto, e instalar o expo-router
+
+
+
+

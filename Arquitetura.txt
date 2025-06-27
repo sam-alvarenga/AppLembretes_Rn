@@ -1,0 +1,11 @@
+1-Stack Navigation
+    1.1-Index
+    1.2-(tabs) Tab Navigation
+        1.2.1 - Lista de Lembretes
+	1.2.2 - Adicionar Lembretes
+    1.3- Lembretes Único (Editar | Excluir)
+
+
+     
+ 
+ 
