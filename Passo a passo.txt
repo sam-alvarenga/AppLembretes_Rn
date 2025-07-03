@@ -15,7 +15,14 @@ Model Lembrete
 
 2) Definir Wireframes x funcionalidades x fluxo de telas
 3) Definir a arquitetura e fluxo de telas com base no React Native (Navigation ou Router)
-4) Criar o repositório RN, fazer o link com o repositório remoto, e instalar o expo-router
+4) Criar o repositório RN, fazer o link com o repositório remoto
+5) Instalar o expo-router vide docs
+https://docs.expo.dev/router/installation/#quick-start
+5.1 Instalar as dependecias
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+5.2 - renomear a main no package.json para "expo-router/entry" padrão é app/_layout.tsx ou index.ts.
+ 
+6)
 
 
 
