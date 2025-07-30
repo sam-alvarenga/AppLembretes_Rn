@@ -11,7 +11,7 @@ export default function TabLayout() {
 
             />
             <Tabs.Screen
-                name="list" options={{ title: "Lista de Lembretes", headerShown: false, tabBarIcon: ({ color }) => <FontAwesome size={28} name="list" color={color} /> }}
+                name="list" options={{ title: "Lembretes", headerShown: true, tabBarIcon: ({ color }) => <FontAwesome size={28} name="list" color={color} /> }}
             />
 
         </Tabs>

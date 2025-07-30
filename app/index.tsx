@@ -2,13 +2,18 @@ import { Text, Image, StyleSheet, View } from "react-native";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Shadow } from "react-native-shadow-2";
-
+import Button from "../components/Button/button";
+import  {router}  from "expo-router";
 
 export default function Index() {
 
+    function navigate(){
+        router.replace('/list')
+    }
+
     return (
         <SafeAreaView style={styles.container}>
-            <Shadow distance={1} offset={[2, 3]} startColor='#888' endColor='#E0EBEE'>
+            <Shadow distance={1} offset={[3, 4]} startColor='#888' endColor='#E0EBEE'>
                 <Image
                     source={require('../assets/image.png')}
                     style={styles.logo}
@@ -17,7 +22,7 @@ export default function Index() {
             </Shadow>
 
             <Text style={styles.title}>App Lembretes - 2025 ©</Text>
-
+            <Button title="Entrar" function={navigate}/>
 
         </SafeAreaView >
 
