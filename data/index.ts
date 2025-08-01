@@ -2,10 +2,10 @@ import { Lembrete } from "../types/lembrete";
 
 
 type BD = {
-    lembrete: Lembrete[]
+    lembretes: Lembrete[]
 };
 export const data: BD = {
-    lembrete: [
+    lembretes: [
         {
            LembreteId: 1,
             TituloLembrete: 'Reunião',
@@ -14,7 +14,7 @@ export const data: BD = {
         },
         {
             LembreteId: 2,
-            TituloLembrete: 'Esudar',
+            TituloLembrete: 'Estudar',
             CorpoLembrete: 'Estudar Lógica de Programação e JavaScript ',
             StatusLembrete: true
         },

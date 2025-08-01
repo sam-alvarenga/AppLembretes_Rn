@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         width: "100%",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#E0EBEE",
+       
         flexDirection: "row",
 
 
