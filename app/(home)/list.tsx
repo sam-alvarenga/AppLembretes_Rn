@@ -32,10 +32,7 @@ const styles = StyleSheet.create({
     list: {
         width: "100%",
         padding: 16,
-
     }
-
-
 
 })
 
