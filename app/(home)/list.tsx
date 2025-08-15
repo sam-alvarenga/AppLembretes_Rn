@@ -27,11 +27,18 @@ export default function List() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "row",
         backgroundColor: "#E0EBEE",
+
     },
     list: {
         width: "100%",
         padding: 16,
+     
+
     }
 
 })
